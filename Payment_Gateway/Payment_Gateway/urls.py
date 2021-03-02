@@ -18,5 +18,6 @@ from django.urls import path
 from . import views
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('',views.index,name="Indexing")
+    path('',views.index,name="Indexing"),
+    path('payment/',views.payment,name="Payment")
 ]
