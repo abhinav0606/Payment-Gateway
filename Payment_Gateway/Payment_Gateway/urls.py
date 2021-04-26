@@ -18,6 +18,7 @@ from django.urls import path
 from . import views
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('',views.index,name="Indexing"),
-    path('payment/',views.payment,name="Payment")
+    path('',views.index,name="Payment Filed"),
+    path("payment/",views.payment,name="Payment Option"),
+    path("success/",views.payment_success,name="Success")
 ]
