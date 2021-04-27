@@ -172,9 +172,16 @@ body {
     bottom: 100%;
   }
 }
-
+div {
+  background-color: lightgrey;
+  text-align: center;
+  border: 10px solid green;
+  padding: 50px;
+}
 </style>
 <body style="text-align:center">
+<br><br><br>
+<div>
 {% if response %}
 <!--<form action="/success/" method="POST">-->
 <!--    <script-->
@@ -190,7 +197,8 @@ body {
 <!--    <input type="hidden" custom="Hidden Element" name="hidden">-->
 <!--    </form>-->
 
-  <form action="/success/" method="post">
+
+  <form id="form1" name="form1" action="/success/" method="post">
     <script
         src="https://checkout.razorpay.com/v1/checkout.js"
         data-key="rzp_test_wVtLT9v4Tl4TBT"
@@ -201,8 +209,9 @@ body {
         data-name={{Y}}
         data-description="Please Donate"
     ></script>
-    <input type="hidden" custom="Hidden Element" name="hidden">
+<!--    <input type="hidden" custom="Hidden Element" name="hidden">-->
   </form>
 {% endif %}
+</div>
 </body>
 </html>

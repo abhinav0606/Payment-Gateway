@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="401495c5-03fc-4b8f-be58-97d250a5f428" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Payment_Gateway/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/Payment_Gateway/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Payment_Gateway/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Payment_Gateway/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Payment_Gateway/Payment_Gateway/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Payment_Gateway/Payment_Gateway/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
