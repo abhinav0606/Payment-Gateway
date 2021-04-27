@@ -9,7 +9,7 @@ def payment(request):
         name=request.POST.get("name","")
         amount=request.POST.get("amount","")
         amount=str(int(amount)*100)
-        c = razorpay.Client(auth=("rzp_test_wVtLT9v4Tl4TBT","f4HKckt66CMS6gk7qUjDNB79"))
+        c = razorpay.Client(auth=("****************","*********************"))
         response=c.order.create({"amount":amount,"currency":"INR", "receipt":'order_rcptid_11',"payment_capture":"1"})
         context={"response":response,"X":str(response["amount"]),"Y":name}
     return render(request,"payment.html",context)
